@@ -24,6 +24,9 @@
 .link-open{
     font-size: 10px;
 }
+.done-btn{
+    font-size:10px;
+}
 /* FOOTER */
 .links{
     list-style: none;
@@ -39,7 +42,7 @@
 /* MOBILE SIZE */
 @media(max-width:768px){
     .btn-act{
-        font-size: 13px;
+        font-size: 10px;
         padding: 5px;
     }
     .navbar-brand{

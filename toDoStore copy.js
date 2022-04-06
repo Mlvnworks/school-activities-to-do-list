@@ -32,7 +32,7 @@ function output(table){
                     no link
                 </td>
                 <td>
-                    <button class="btn btn-sm btn-warning state">Doned</button>
+                    <button class="btn btn-sm btn-warning state done-btn">Doned</button>
                     <button class="btn btn-small btn-danger d-none trash text-sm">
                         <i class="bi bi-trash3-fill"></i>
                     </button>
@@ -55,7 +55,7 @@ function output(table){
                     </a>
                 </td>
                 <td>
-                    <button class="btn btn-sm btn-warning state">Doned</button>
+                    <button class="btn btn-sm btn-warning state done-btn">Doned</button>
                     <button class="btn btn-small btn-danger d-none trash text-sm">
                         <i class="bi bi-trash3-fill"></i>
                     </button>
