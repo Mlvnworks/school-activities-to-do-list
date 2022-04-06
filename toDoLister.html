@@ -24,24 +24,24 @@
         <div class="container-fluid">
             <p class="navbar-brand fs-2">OPTIONS</p>
             <div class="navbar-nav ms-auto">
-                <div class="d-flex nav-menu">
-                    <div class="col-6">
+                <div class="d-flex nav-menu py-2 justify-content-start">
+                    <div class="col-5 col-md-6">
                         <div class="btn-group">
-                            <button class="btn btn-success btn-sm btn-toggle" data-bs-toggle="modal" data-bs-target="#modal-add">
+                            <button class="btn btn-success btn-sm btn-toggle btn-act" data-bs-toggle="modal" data-bs-target="#modal-add">
                                 ADD
                             </button>
-                            <button class="btn btn-danger btn-sm" id="delete-btn">
+                            <button class="btn btn-danger btn-sm btn-act" id="delete-btn">
                                 DELETE
                             </button>
-                            <button class="btn btn-danger btn-sm-sm" id="clear-all">
+                            <button class="btn btn-danger btn-sm-sm btn-act" id="clear-all">
                                 CLEAR ALL
                             </button>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="input-group w-100">
-                            <input type="text" name="" id="search-bar" class="form-control" placeholder="Search activity">
-                            <button class="btn btn-primary " type="button" id="search-btn">
+                            <input type="text" name="" id="search-bar" class="form-control form-control-sm" placeholder="Search activity">
+                            <button class="btn btn-primary btn-sm" type="button" id="search-btn">
                                 Search
                             </button>
                         </div>
@@ -53,24 +53,26 @@
     <!--TABLE LIST-->
     <section class="bg-light text-dark text-lead my-5">
         <div class="container">
-            <div class="d-flex d-md-block justify-content-center">
-                <div class="col-12">
-                    <h1 class="text-center bg-primary m-0 table-header">ACTIVITIES</h1>
-                    <table class="table table-sm table-striped table-hover table-bordered border-dark rounded" >
-                        <thead class="bg-dark text-light text-center fs-6">
-                            <tr>
-                                <th>TITLE</th>
-                                <th>PASSING</th>
-                                <th>SUBJECT</th>
-                                <th>status</th>
-                                <th>Link</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-center" id="activities">
-                                
-                        </tbody>
-                    </table>
+            <div class="container-fluid">
+                <div class="d-flex d-md-block justify-content-center">
+                    <div class="col-12">
+                        <h1 class="text-center bg-primary m-0 table-header">ACTIVITIES</h1>
+                        <table class="table table-sm table-striped table-hover table-bordered border-dark rounded" >
+                            <thead class="bg-dark text-light text-center fs-6">
+                                <tr>
+                                    <th>TITLE</th>
+                                    <th>PASSING</th>
+                                    <th>SUBJECT</th>
+                                    <th>status</th>
+                                    <th>Link</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center" id="activities">
+                                    
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

@@ -38,6 +38,10 @@
 
 /* MOBILE SIZE */
 @media(max-width:768px){
+    .btn-act{
+        font-size: 13px;
+        padding: 5px;
+    }
     .navbar-brand{
         display: none;
     }
