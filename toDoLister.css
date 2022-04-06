@@ -18,6 +18,12 @@
 .trash-icon-toggle{
     display: none;
 }
+#activities{
+    font-size: 15px;
+}
+.link-open{
+    font-size: 10px;
+}
 /* FOOTER */
 .links{
     list-style: none;
@@ -34,5 +40,8 @@
 @media(max-width:768px){
     .navbar-brand{
         display: none;
+    }
+    #activities{
+        font-size: 13px;
     }
 }

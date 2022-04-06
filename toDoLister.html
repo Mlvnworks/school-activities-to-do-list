@@ -52,22 +52,27 @@
     </nav>
     <!--TABLE LIST-->
     <section class="bg-light text-dark text-lead my-5">
-        <div class="container ">
-            <h1 class="text-center bg-primary m-0 table-header">ACTIVITIES</h1>
-            <table class="table table-striped table-hover table-bordered border-dark rounded" >
-                <thead class="bg-dark text-light text-center">
-                    <tr>
-                        <th>TITLE</th>
-                        <th>PASSING</th>
-                        <th>SUBJECT</th>
-                        <th>status</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody class="text-center" id="activities">
-                         
-                </tbody>
-            </table>
+        <div class="container">
+            <div class="d-flex d-md-block justify-content-center">
+                <div class="col-12">
+                    <h1 class="text-center bg-primary m-0 table-header">ACTIVITIES</h1>
+                    <table class="table table-sm table-striped table-hover table-bordered border-dark rounded" >
+                        <thead class="bg-dark text-light text-center fs-6">
+                            <tr>
+                                <th>TITLE</th>
+                                <th>PASSING</th>
+                                <th>SUBJECT</th>
+                                <th>status</th>
+                                <th>Link</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center" id="activities">
+                                
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </section>
     <!--Footer-->
@@ -116,7 +121,9 @@
                     <br>
                     <label for="" class="fs-5">Subject</label>
                     <input type="text" name="" id="subject" placeholder="optional..." class="form-control">
-
+                    <br>
+                    <label for="link" class="fs-5">Link</label>
+                    <input type="text" name="" id="link" class="form-control" placeholder="enter link(optional...)">
               </form>
             </div>
             <div class="modal-footer">
