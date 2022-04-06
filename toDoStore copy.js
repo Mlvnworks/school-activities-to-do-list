@@ -26,9 +26,6 @@ function output(table){
                 <td>${activity.date}</td>
                 <td>${activity.subject}</td>
                 <td>
-                    <i class="bi bi-circle-fill not-done ndctn"></i>
-                </td>
-                <td>
                     no link
                 </td>
                 <td>
@@ -46,9 +43,6 @@ function output(table){
                 <td class="title">${activity.title}</td>
                 <td>${activity.date}</td>
                 <td>${activity.subject}</td>
-                <td>
-                    <i class="bi bi-circle-fill not-done ndctn"></i>
-                </td>
                 <td>
                     <a href="${activity.link}" target="_blank" class="btn btn-primary btn-sm link-open">
                         Open link
@@ -72,9 +66,6 @@ function output(table){
                 <td>${activity.date}</td>
                 <td>${activity.subject}</td>
                 <td>
-                    <i class="bi bi-circle-fill done ndctn"></i>
-                </td>
-                <td>
                    no link
                 </td>
                 <td>
@@ -94,9 +85,6 @@ function output(table){
                 <td class="title">${activity.title}</td>
                 <td>${activity.date}</td>
                 <td>${activity.subject}</td>
-                <td>
-                    <i class="bi bi-circle-fill done ndctn"></i>
-                </td>
                 <td>
                     <a href="${activity.link}" target="_blank" class="btn btn-primary btn-sm link-open">
                         Open link
