@@ -30,16 +30,52 @@
 .links{
     list-style: none;
 }
-.footer{
-    margin-top: 50vh;
-    
-}
 .contacts-link{
     margin:0 7px;
 }
-
+/* Lower showcase */
+#lower-showcase{
+    margin-top: 150px;
+    border-top: black 5px solid;
+    box-sizing: border-box;
+    background-color: #00204A;
+    color: white;
+    padding:50px;
+}
+#first-image{
+    width: 75%;
+}
+#coin_count_logo{
+    width: 70%;
+}
+#mobile{
+    display: none;
+}
+#nav-logo{
+    width: 10%;
+}
 /* MOBILE SIZE */
 @media(max-width:768px){
+    #thead{
+        font-size: 13px;
+    }
+    #coin_count_logo{
+        width: 60%;
+    }
+    #mobile{
+        display: block;
+    }
+    #not-mobile{
+        display: none;
+    }
+    #lower-showcase{
+        text-align: center;
+        padding:0;
+        padding-bottom: 50px;
+    }
+    #first-image{
+        width: 60%;
+    }
     .btn-act{
         font-size: 10px;
         padding: 5px;
