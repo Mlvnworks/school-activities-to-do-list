@@ -9,40 +9,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" integrity="sha512-Oy+sz5W86PK0ZIkawrG0iv7XwWhYecM3exvUtMKNJMekGFJtVAhibhRPTpmyTj8+lJCkmWfnpxKgT2OopquBHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--CUSTOM STYLE-->
     <link rel="stylesheet" href="toDoLister.css">
+    <link rel="shortcut icon" href="to lister full images/PicsArt_04-10-02.57.50.png" type="image/x-icon">
     <title>To Do Lister</title>
 </head>
 <body>
-    <header class="bg-primary py-2">
+    <header class="header-container">
         <div class="container-fluid">
             <h1 class="text-light header">
-                <img src="to lister full images/main_image.png" alt="Logo" class="img-fluid" id="nav-logo">
+                <img src="to lister full images/PicsArt_04-10-02.57.50.png" class="img-fluid" id="nav-logo">
                 Todo Lister
             </h1>
         </div>
     </header>
     <!--nav-->
-    <nav class="navbar bg-dark text-light navbar-expand-md py-1">
+    <nav class="navbar bg-dark text-light py-1">
         <div class="container-fluid">
-            <div class="navbar-nav ms-auto">
-                <div class="d-flex nav-menu py-2 justify-content-start">
-                    <div class="col-5 col-md-6">
-                        <div class="btn-group">
-                            <button class="btn btn-success btn-sm btn-toggle btn-act" data-bs-toggle="modal" data-bs-target="#modal-add">
-                                ADD
+            <div class="navbar-nav w-100">
+                <div class="d-flex nav-menu py-2">
+                    <div class="col-6 text-start text-md-end">
+                            <button class="btn btn-outline-secondary text-light btn-toggle btn-act me-md-2 btn-sm" data-bs-toggle="modal" data-bs-target="#modal-add">
+                                <i class="bi bi-plus-square"></i>
                             </button>
-                            <button class="btn btn-danger btn-sm btn-act" id="delete-btn">
-                                DELETE
+                            <button class="btn btn-outline-secondary text-light btn-act me-md-2 btn-sm" id="delete-btn">
+                                <i class="bi bi-trash3"></i>
                             </button>
-                            <button class="btn btn-danger btn-sm-sm btn-act" id="clear-all">
-                                CLEAR ALL
+                            <button class="btn btn-outline-secondary text-light btn-act me-md-2 btn-sm" id="clear-all">
+                                clear all
                             </button>
-                        </div>
                     </div>
                     <div class="col-6">
-                        <div class="input-group w-100">
-                            <input type="text" name="" id="search-bar" class="form-control form-control-sm" placeholder="Search activity">
-                            <button class="btn btn-primary btn-sm" type="button" id="search-btn">
-                                Search
+                        <div class="input-group input-group-sm">
+                            <input type="text" name="" id="search-bar" class="form-control" placeholder="Search activity">
+                            <button class="btn btn-outline-secondary text-light btn-sm" type="button" id="search-btn">
+                                <i class="bi bi-search"></i>
                             </button>
                         </div>
                     </div>
@@ -55,7 +54,7 @@
         <div class="">
                 <div class="d-flex d-md-block justify-content-center">
                     <div class="col-12">
-                        <h1 class="text-center bg-primary m-0 table-header">ACTIVITIES</h1>
+                        <h3 class="text-center table-header py-1">ACTIVITIES</h3>
                         <table class="table table-sm table-striped table-hover table-bordered border-dark rounded" >
                             <thead class="bg-dark text-light text-center" id="thead">
                                 <tr>
@@ -83,7 +82,7 @@
                     </div>
                     <div class="col-md-6">
                         <h2 class="text-warning">To Do Lister</h2>
-                        <p>In to Do lister you can list all your important school activities helps you to to your activities on time.</p>
+                        <p>In to Do lister you can list all your important school activities ansd helps you to do your activities on time.</p>
                         <p>
 
                         </p>
@@ -97,12 +96,12 @@
                     <div class="d-md-flex justify-content-center align-items-center">
                         <div class="col-md-6">
                             <h2 class="text-warning">Coin Count Ph</h2>
-                            <p>Coin Cout Ph help you to monitor you budget and many more!</p>
+                            <p>Coin Cout Ph help you to monitor you budget and many money related things!</p>
                             <div>
-                                <a href="https://coincountph.000webhostapp.com/" class="btn btn-primary" target="_blank">Visit site</a>
+                                <a href="https://mlvnworks.github.io/Coin-Count/mycoin.html" class="btn btn-primary" target="_blank">Visit site</a>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 text-center">
                             <img src="to lister full images/coin_count_logo.png" alt="Image" class="img-fluid" id="coin_count_logo">
                         </div>
                     </div>
@@ -118,9 +117,9 @@
                         </div>
                         <div class="col-md-6">
                             <h2 class="text-warning">Coin Count Ph</h2>
-                            <p>Coin Cout Ph help you to monitor you budget and many more!</p>
+                            <p>Coin Cout Ph help you to monitor you budget and many money related things!</p>
                             <div>
-                                <a href="https://coincountph.000webhostapp.com/" class="btn btn-primary" target="_blank">Visit site</a>
+                                <a href="https://mlvnworks.github.io/Coin-Count/mycoin.html" class="btn btn-primary" target="_blank">Visit site</a>
                             </div>
                         </div>
                     </div>
@@ -142,7 +141,6 @@
                         <a href="https://github.com/Mlvnworks" target="_blank">
                             <i class="bi bi-github contacts-link"></i>
                         </a>
-                        
                     </li>
                     <li>
                         <a href="#">
@@ -160,11 +158,11 @@
     <div class="modal fade" id="modal-add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header" id="main_modal_header">
               <h5 class="modal-title" id="exampleModalLabel">Project Info</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body" id="main_modal_body">
               <form action="" class="form-group">
                     <label for="" class="text-lead fs-5">Title</label>
                     <input type="text" name="" id="activity-title" class="form-control" placeholder="Enter Title...">
@@ -180,8 +178,8 @@
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary" id="add-btn">ADD</button>
+              <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-sm" id="add-btn">ADD</button>
             </div>
           </div>
         </div>
